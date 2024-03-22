@@ -7,7 +7,7 @@ function fill(jsonData){
 }
 searchBar.onkeyup = function(){
 
-	var searched = singers.filter(el => el.artist.toLowerCase().indexOf ( this.value.toLowerCase() ) !=-1)
+	var searched = singers.filter(el => el.artist||albums.name.toLowerCase().indexOf ( this.value.toLowerCase() ) !=-1)
 	fill(searched);
 
 }
