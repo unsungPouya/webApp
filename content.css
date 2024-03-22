@@ -1,0 +1,95 @@
+
+#music {
+    margin-top: 10px;
+    color: #ccc; 
+    font-size: 16px; 
+    display: flex ;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-inline: 20px;
+}
+
+#music > div{
+    width: 250px;
+    border-radius: 12px;
+    position: relative;
+    flex-grow: 1;
+}
+
+#music > div h4{
+    margin: auto;
+    text-align: center;
+    background-color: #231123;
+    font-family: arial;
+    font-size: 1.5vw;
+    font-family: "Audiowide",arial, sans-serif;
+    text-shadow: 1px 1px 10px  violet;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+#music > div span{
+    margin: 10px 0 10px 0px;
+    color: lightpink; 
+    font-size: 1vw;
+    font-family: sans-serif;
+    font-style: italic;
+    cursor: pointer;
+} 
+
+
+#music > div > .album img{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+#music > div >.album> .caption{
+    background-color: #231123;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    padding: 5px ;
+}
+/* .hide{
+    display: none;
+} */
+/* 
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.musics {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.musics img {
+    width: 100%;
+    height: auto;
+}
+
+.musics .title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 0;
+}
+
+.musics .details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 0.8em;
+    padding: 10px;
+} */

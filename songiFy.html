@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="music stream web">
+    <meta name="keywords" content="music , album , singer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Songi Fy</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(39, 11, 65);
+        }
+    </style>
+    <link rel="stylesheet" href="head.css">
+    <link rel="stylesheet" href="content.css">
+</head>
+
+<body id="body">
+    <div id="header">
+        <div id="logo">
+            <img src="image/icons/logo.png" alt="SongiFy" height="60" width="60">
+        </div>
+        <div class="search">
+            <input type="search" id="searchBar" placeholder="Search for artists">
+        </div>
+
+        <div id="mode">
+        </div>
+
+        <div id="profile">
+            <div id="user">
+                <img src="image/icons/circle-user.png" alt="user Profile" height="32" width="32">
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="music" class="music"></div>
+    </div>
+
+    <div id="up">
+        <a href="#header"></a>
+    </div>
+    <script>
+        mode.onclick = function changeMode() {
+            if (body.className === "light") {
+                body.className = "";
+                // header.style.background=""
+
+            } else {
+                body.className = "light";
+                // header.style.background = "#9883e5"
+            }
+        }
+    </script>
+    <script src="JSON.js"></script>
+    <script src="callJson.js"></script>
+    <script src="search.js"></script>
+    <!-- <script src="search.js"></script> -->
+    <!-- <script src="content.js"></script> -->
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+[
+    {
+        "id": "tay",
+        "artist": "taylor swift",
+        "gener": "pop",
+        "type": "single",
+        "picture": "",
+        "albums": [
+            {
+                "name": "Fearless",
+                "date": 2008,
+                "songs": [
+                    { "title": "Love Story" },
+                    { "title": "You Belong With Me" }
+                ],
+                "cover": "fearlessCover"
+            }
+        ]
+    },
+    {
+        "id": "rad",
+        "artist": "radio head",
+        "gener": ["rock", "electronic"],
+        "songNames": [],
+        "type": "band",
+        "picture": "",
+        "album": [
+            {
+                "name": "Ok Camputer",
+                "date": 1993,
+                "songs": [
+                    { "title": "Paranoid Android" },
+                    { "title": "You Belong With Me", "imageUrl": "fearlessCover.jpg" }
+                ],
+                "cover": "ok-camputer"
+            }
+        ]
+    },
+    {
+        "id": "nir",
+        "artist": "nirvana",
+        "gener": ["rock", "electronic"],
+        "songNames": [],
+        "type": "band",
+        "picture": "",
+        "album": [
+            {
+                "name": "Nevermind",
+                "date": 1992,
+                "songs": [
+                    { "title": "Something in the Way" },
+                    { "title": "Polly" }
+                ],
+                "cover": "nevermind"
+            }
+        ]
+    },
+    {
+        "id": "dua",
+        "artist": "dua lipa",
+        "gener": "pop",
+        "songNames": [],
+        "type": "single",
+        "picture": "",
+        "album": "",
+        "date": ""
+    }
+]

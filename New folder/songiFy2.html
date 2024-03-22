@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Songi Fy</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(39, 11, 65);
+        }
+    </style>
+    <link rel="stylesheet" href="head.css">
+    <link rel="stylesheet" href="content.css">
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="image/icons/logo.png" alt="SongiFy" height="60" width="60">
+        </div>
+        <div class="search" >
+            <label for="search"></label>
+            <input id="search" type="text" placeholder="Searching for...">
+        </div>
+        <div id="profile">
+            <div id="user">
+                <img src="image/icons/circle-user.png" alt="user Profile" height="32" width="32">
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+         <div id="singers" class="music"></div>
+    </div>
+
+    <div id="up">
+        <a href="#header"></a>
+    </div>
+    
+    <script src="JSON.js"></script>
+    <script src="callJson.js"></script>
+    <!-- <script src="content.js"></script> -->
+</body>
+</html>
